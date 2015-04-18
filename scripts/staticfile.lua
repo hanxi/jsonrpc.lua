@@ -1,3 +1,4 @@
+-- copy from https://github.com/ejoy/avalon/blob/master/lualib/staticfile.lua
 local conf = require "conf"
 local io = io
 local root = conf.static_path
