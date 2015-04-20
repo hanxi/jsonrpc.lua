@@ -1,3 +1,6 @@
 [submodule "lsocket"]
 	path = lsocket
 	url = git@github.com:cloudwu/lsocket.git
+[submodule "lua-xlsread"]
+	path = lua-xlsread
+	url = git@github.com:hanxi/lua-xlsread.git

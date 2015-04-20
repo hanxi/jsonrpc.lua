@@ -1,0 +1,95 @@
+h1 {
+    text-align: center;
+}
+
+.content-center {
+    position:absolute;
+    top:90px;
+    left:1%;
+    right:1%;
+    width:99%;
+    height:90%;
+    bottom:0px;
+    overflow:auto;
+}
+
+.content-left {
+    position:absolute;
+    top:90px;
+    right:51%;
+    width:49%;
+    height:auto;
+    bottom:0px;
+    overflow:auto;
+}
+
+.content-right {
+    position:absolute;
+    top:90px;
+    left:49%; 
+    width:49%;
+    height:auto; 
+    bottom:0px; 
+    overflow:auto;
+}
+
+.content-left1 {
+    position:absolute;
+    top:90px;
+    right:64%;
+    width:35%;
+    height:auto;
+    bottom:0px;
+    overflow:auto;
+}
+
+.content-right1 {
+    position:absolute;
+    top:90px;
+    left:36%; 
+    width:31%;
+    height:auto; 
+    bottom:0px; 
+    overflow:auto;
+}
+
+.content-right2 {
+    position:absolute;
+    top:90px;
+    left:68%; 
+    width:31%;
+    height:auto; 
+    bottom:0px; 
+    overflow:auto;
+}
+
+table.altrowstable {
+    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #a9c6c9;
+    border-collapse: collapse;
+}
+table.altrowstable th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #a9c6c9;
+}
+table.altrowstable td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #a9c6c9;
+}
+.alt{
+    background-color:#d4e3e5;
+}
+
+.max-center {
+    width:99%;
+    height:80%;
+    border-style: none none none none;
+}
+
