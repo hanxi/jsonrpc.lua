@@ -71,7 +71,7 @@ jsonRPC = {
                     error(eval ( '(' + responseText + ')' ));
                 }
                 catch(e) {
-                    error(this._response());
+                    error(this._response(responseText));
                 }
             }
             else {
@@ -108,7 +108,7 @@ jsonRPC = {
           }
           catch (e) {
               return {
-                  error: 'Internal server error: ' + e,
+                  error: 'Internal server error: ' + responseText,
                   version: '2.0'
               }
           }
